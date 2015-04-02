@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DEA3A200-B21E-43FB-9642-9E754DFA7325</string>
+	<key>IDESourceControlProjectName</key>
+	<string>swift-ios8-app-practice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>385148BECB8A2FCFC20845F59F0020E9F77E18D1</key>
+		<string>github.com:lymanlai/swift-ios8-app-practice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>swift-ios8-app-practice.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>385148BECB8A2FCFC20845F59F0020E9F77E18D1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:lymanlai/swift-ios8-app-practice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>385148BECB8A2FCFC20845F59F0020E9F77E18D1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>385148BECB8A2FCFC20845F59F0020E9F77E18D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift-ios8-app-practice</string>
+		</dict>
+	</array>
+</dict>
+</plist>
