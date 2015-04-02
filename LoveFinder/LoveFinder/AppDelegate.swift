@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LoveFinder
 //
-//  Created by Lyman on 4/2/15.
+//  Created by Lyman on 4/3/15.
 //  Copyright (c) 2015 Lyman. All rights reserved.
 //
 

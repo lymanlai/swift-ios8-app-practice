@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E82BF6061ACD9B0F007E0760"
+               BlueprintIdentifier = "E82BF6341ACDA9F6007E0760"
                BuildableName = "LoveFinder.app"
                BlueprintName = "LoveFinder"
                ReferencedContainer = "container:LoveFinder.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E82BF61B1ACD9B0F007E0760"
+               BlueprintIdentifier = "E82BF6491ACDA9F6007E0760"
                BuildableName = "LoveFinderTests.xctest"
                BlueprintName = "LoveFinderTests"
                ReferencedContainer = "container:LoveFinder.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E82BF61B1ACD9B0F007E0760"
+               BlueprintIdentifier = "E82BF6491ACDA9F6007E0760"
                BuildableName = "LoveFinderTests.xctest"
                BlueprintName = "LoveFinderTests"
                ReferencedContainer = "container:LoveFinder.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E82BF6061ACD9B0F007E0760"
+            BlueprintIdentifier = "E82BF6341ACDA9F6007E0760"
             BuildableName = "LoveFinder.app"
             BlueprintName = "LoveFinder"
             ReferencedContainer = "container:LoveFinder.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E82BF6061ACD9B0F007E0760"
+            BlueprintIdentifier = "E82BF6341ACDA9F6007E0760"
             BuildableName = "LoveFinder.app"
             BlueprintName = "LoveFinder"
             ReferencedContainer = "container:LoveFinder.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E82BF6061ACD9B0F007E0760"
+            BlueprintIdentifier = "E82BF6341ACDA9F6007E0760"
             BuildableName = "LoveFinder.app"
             BlueprintName = "LoveFinder"
             ReferencedContainer = "container:LoveFinder.xcodeproj">
