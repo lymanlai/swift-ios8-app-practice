@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2va-L3-ZUk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--女神画廊-->
@@ -9,8 +10,8 @@
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BeautyGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="FhS-Lp-sBN"/>
+                        <viewControllerLayoutGuide type="bottom" id="NUR-Kd-QGV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -57,8 +58,8 @@
             <objects>
                 <viewController id="blW-Af-HEc" customClass="GalleryViewController" customModule="BeautyGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WNF-ww-ZFk"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZVB-87-SCe"/>
+                        <viewControllerLayoutGuide type="top" id="2EY-T8-UN8"/>
+                        <viewControllerLayoutGuide type="bottom" id="jXC-QK-cSG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZlD-l9-9jO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -139,8 +140,8 @@
             <objects>
                 <viewController id="tKb-xx-vGn" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZRk-cB-76A"/>
-                        <viewControllerLayoutGuide type="bottom" id="5V7-s5-Q3s"/>
+                        <viewControllerLayoutGuide type="top" id="NZa-vd-rU2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fl1-B3-rcA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="anq-sP-Cv7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -156,27 +157,70 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="845-cu-omu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="694" y="1064"/>
+            <point key="canvasLocation" x="694" y="1063.9999999999998"/>
         </scene>
         <!--韩国-->
         <scene sceneID="hCe-FJ-odf">
             <objects>
-                <viewController id="xMU-06-cnx" sceneMemberID="viewController">
+                <viewController id="xMU-06-cnx" customClass="KoreanViewController" customModule="BeautyGallery" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PeY-Ne-dI6"/>
-                        <viewControllerLayoutGuide type="bottom" id="gGI-cD-hbC"/>
+                        <viewControllerLayoutGuide type="top" id="7iM-nz-WKc"/>
+                        <viewControllerLayoutGuide type="bottom" id="DH5-B7-L4K"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PK6-R1-LbI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="rtB-GE-67T">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="korean" translatesAutoresizingMaskIntoConstraints="NO" id="rtB-GE-67T">
+                                <rect key="frame" x="47" y="20" width="226" height="386"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sp2-SL-ict">
+                                <rect key="frame" x="47" y="436" width="50" height="50"/>
+                                <state key="normal" image="facebook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebookTapped:" destination="xMU-06-cnx" eventType="touchUpInside" id="tcR-fH-yoR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QJ-am-RMB">
+                                <rect key="frame" x="135" y="436" width="50" height="50"/>
+                                <state key="normal" image="twitter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="twitterTapped:" destination="xMU-06-cnx" eventType="touchUpInside" id="gky-pP-IWM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxC-LT-hT2">
+                                <rect key="frame" x="223" y="436" width="50" height="50"/>
+                                <state key="normal" image="weibo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="WeiboTapped:" destination="xMU-06-cnx" eventType="touchUpInside" id="e9k-10-G9i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rtB-GE-67T" firstAttribute="leading" secondItem="PK6-R1-LbI" secondAttribute="leadingMargin" constant="31" id="15b-Fk-3cq"/>
+                            <constraint firstItem="YxC-LT-hT2" firstAttribute="trailing" secondItem="rtB-GE-67T" secondAttribute="trailing" id="3vF-ng-T91"/>
+                            <constraint firstItem="YxC-LT-hT2" firstAttribute="top" secondItem="4QJ-am-RMB" secondAttribute="top" id="5w3-GF-G6G"/>
+                            <constraint firstItem="Sp2-SL-ict" firstAttribute="leading" secondItem="rtB-GE-67T" secondAttribute="leading" id="80a-Hp-0B9"/>
+                            <constraint firstItem="Sp2-SL-ict" firstAttribute="bottom" secondItem="4QJ-am-RMB" secondAttribute="bottom" id="Jpj-li-bSu"/>
+                            <constraint firstItem="4QJ-am-RMB" firstAttribute="centerX" secondItem="PK6-R1-LbI" secondAttribute="centerX" id="KOr-K4-jf1"/>
+                            <constraint firstItem="4QJ-am-RMB" firstAttribute="top" secondItem="Sp2-SL-ict" secondAttribute="top" id="ZIs-Kl-Ug4"/>
+                            <constraint firstItem="Sp2-SL-ict" firstAttribute="top" secondItem="rtB-GE-67T" secondAttribute="bottom" constant="30" id="czq-Hs-Iwk"/>
+                            <constraint firstItem="4QJ-am-RMB" firstAttribute="centerX" secondItem="rtB-GE-67T" secondAttribute="centerX" id="fHi-00-9jC"/>
+                            <constraint firstItem="DH5-B7-L4K" firstAttribute="top" secondItem="Sp2-SL-ict" secondAttribute="bottom" constant="33" id="xCl-vJ-eCl"/>
+                            <constraint firstItem="rtB-GE-67T" firstAttribute="top" secondItem="7iM-nz-WKc" secondAttribute="bottom" id="y6w-G1-Mkt"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="韩国" image="torii" id="5rF-JZ-aIe"/>
+                    <connections>
+                        <outlet property="beautyImage" destination="rtB-GE-67T" id="Ako-wL-10a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tm4-lf-1EE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -184,12 +228,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="facebook" width="50" height="50"/>
         <image name="fanbingbing" width="320" height="568"/>
         <image name="geisha" width="25" height="25"/>
         <image name="great_wall" width="25" height="25"/>
         <image name="japanese" width="320" height="568"/>
         <image name="korean" width="320" height="568"/>
         <image name="torii" width="25" height="25"/>
+        <image name="twitter" width="50" height="50"/>
+        <image name="weibo" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
