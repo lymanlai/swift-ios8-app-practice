@@ -31,6 +31,7 @@ class ViewController: UIViewController {
             let index = beautyPicker.selectedRowInComponent(0)
             
             var imageName: String?
+            var beautyName = beauties[index]
             switch index {
             case 0:
                 imageName = "fanbingbing"
@@ -48,6 +49,7 @@ class ViewController: UIViewController {
             
             var vc = segue.destinationViewController as GalleryViewController
             vc.imageName = imageName
+            vc.beautyName = beautyName
         }
     }
     
